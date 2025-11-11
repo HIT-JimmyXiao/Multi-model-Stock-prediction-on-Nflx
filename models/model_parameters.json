@@ -1,0 +1,225 @@
+{
+  "Ensemble_R2³_3模型": {
+    "r2": 0.01481583495754124,
+    "rmse": 0.06059443650620142,
+    "mae": 0.04639888847531316
+  },
+  "Ensemble_R2³_2模型": {
+    "r2": 0.014747379790521986,
+    "rmse": 0.06059654166093571,
+    "mae": 0.04640063989883997
+  },
+  "GRU_R3_24_2": {
+    "r2": 0.012826275750847715,
+    "rmse": 0.06065559025769215,
+    "mae": 0.0465666962117382,
+    "architecture": "SimpleGRU(\n  (gru): GRU(10, 24, num_layers=2, batch_first=True, dropout=0.2)\n  (dropout): Dropout(p=0.2, inplace=False)\n  (fc): Linear(in_features=24, out_features=1, bias=True)\n)"
+  },
+  "Ridge_500": {
+    "r2": 0.009105046469150224,
+    "rmse": 0.06381106115849801,
+    "mae": 0.04809260680245711
+  },
+  "Ridge_400": {
+    "r2": 0.008863560667704329,
+    "rmse": 0.06381883621399936,
+    "mae": 0.04806663895169942
+  },
+  "Ridge_750": {
+    "r2": 0.00885328501776983,
+    "rmse": 0.06381916703541528,
+    "mae": 0.048155456810521045
+  },
+  "GRU_32_3": {
+    "r2": 0.008633325440117634,
+    "rmse": 0.06078426892083406,
+    "mae": 0.046629781078515585,
+    "architecture": "SimpleGRU(\n  (gru): GRU(10, 32, num_layers=3, batch_first=True, dropout=0.35)\n  (dropout): Dropout(p=0.35, inplace=False)\n  (fc): Linear(in_features=32, out_features=1, bias=True)\n)"
+  },
+  "Ridge_250": {
+    "r2": 0.007592056063007502,
+    "rmse": 0.0638597589026114,
+    "mae": 0.048065740152390075
+  },
+  "GRU_R3_16_3": {
+    "r2": 0.004873199654102933,
+    "rmse": 0.06089943326492542,
+    "mae": 0.04648556042600687,
+    "architecture": "SimpleGRU(\n  (gru): GRU(10, 16, num_layers=3, batch_first=True, dropout=0.25)\n  (dropout): Dropout(p=0.25, inplace=False)\n  (fc): Linear(in_features=16, out_features=1, bias=True)\n)"
+  },
+  "GRU_R2_30_3": {
+    "r2": 0.0035487534765202833,
+    "rmse": 0.06093994629393554,
+    "mae": 0.04666308190779045,
+    "architecture": "SimpleGRU(\n  (gru): GRU(10, 30, num_layers=3, batch_first=True, dropout=0.3)\n  (dropout): Dropout(p=0.3, inplace=False)\n  (fc): Linear(in_features=30, out_features=1, bias=True)\n)"
+  },
+  "Ridge": {
+    "r2": 0.0034737927511895306,
+    "rmse": 0.06399212333508994,
+    "mae": 0.04811619419364805
+  },
+  "LSTM_R3_8_2": {
+    "r2": 0.001973807008674333,
+    "rmse": 0.06098808676199086,
+    "mae": 0.046783431197819254,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 8, num_layers=2, batch_first=True, dropout=0.2)\n  (dropout): Dropout(p=0.2, inplace=False)\n  (fc): Linear(in_features=8, out_features=1, bias=True)\n)"
+  },
+  "GRU_R3_20_4": {
+    "r2": 0.0016873061947983992,
+    "rmse": 0.060996839980495855,
+    "mae": 0.04677469701854601,
+    "architecture": "SimpleGRU(\n  (gru): GRU(10, 20, num_layers=4, batch_first=True, dropout=0.3)\n  (dropout): Dropout(p=0.3, inplace=False)\n  (fc): Linear(in_features=20, out_features=1, bias=True)\n)"
+  },
+  "LSTM_16_2": {
+    "r2": 0.0011203069626165574,
+    "rmse": 0.06101415932959218,
+    "mae": 0.046733107154924,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 16, num_layers=2, batch_first=True, dropout=0.3)\n  (dropout): Dropout(p=0.3, inplace=False)\n  (fc): Linear(in_features=16, out_features=1, bias=True)\n)"
+  },
+  "RF_100_6": {
+    "r2": 0.0010765843161627542,
+    "rmse": 0.06406904570432827,
+    "mae": 0.04905288405602983
+  },
+  "LSTM_24_3": {
+    "r2": -0.000211753283801297,
+    "rmse": 0.06105482862076376,
+    "mae": 0.046839984262315504,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 24, num_layers=3, batch_first=True, dropout=0.35)\n  (dropout): Dropout(p=0.35, inplace=False)\n  (fc): Linear(in_features=24, out_features=1, bias=True)\n)"
+  },
+  "GRU_R3_32_3": {
+    "r2": -0.00036217784112690943,
+    "rmse": 0.06105941954876302,
+    "mae": 0.046630860811824874,
+    "architecture": "SimpleGRU(\n  (gru): GRU(10, 32, num_layers=3, batch_first=True, dropout=0.3)\n  (dropout): Dropout(p=0.3, inplace=False)\n  (fc): Linear(in_features=32, out_features=1, bias=True)\n)"
+  },
+  "GRU_R3_64_2": {
+    "r2": -0.0014404457930643488,
+    "rmse": 0.06109231797537225,
+    "mae": 0.046615876663468385,
+    "architecture": "SimpleGRU(\n  (gru): GRU(10, 64, num_layers=2, batch_first=True, dropout=0.25)\n  (dropout): Dropout(p=0.25, inplace=False)\n  (fc): Linear(in_features=64, out_features=1, bias=True)\n)"
+  },
+  "LGB_30_2_50": {
+    "r2": -0.0025659939799522746,
+    "rmse": 0.06418575342515574,
+    "mae": 0.04916691986655547
+  },
+  "GRU_R2_32_4": {
+    "r2": -0.0031752939670735003,
+    "rmse": 0.06114521180206198,
+    "mae": 0.0467880597760104,
+    "architecture": "SimpleGRU(\n  (gru): GRU(10, 32, num_layers=4, batch_first=True, dropout=0.32)\n  (dropout): Dropout(p=0.32, inplace=False)\n  (fc): Linear(in_features=32, out_features=1, bias=True)\n)"
+  },
+  "LSTM_R3_32_3": {
+    "r2": -0.003408427562090699,
+    "rmse": 0.06115231633056622,
+    "mae": 0.046829379780168955,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 32, num_layers=3, batch_first=True, dropout=0.3)\n  (dropout): Dropout(p=0.3, inplace=False)\n  (fc): Linear(in_features=32, out_features=1, bias=True)\n)"
+  },
+  "LSTM_R3_20_3": {
+    "r2": -0.00463277798699524,
+    "rmse": 0.06118961372455252,
+    "mae": 0.046845033948092044,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 20, num_layers=3, batch_first=True, dropout=0.35)\n  (dropout): Dropout(p=0.35, inplace=False)\n  (fc): Linear(in_features=20, out_features=1, bias=True)\n)"
+  },
+  "LSTM_R2_16_3": {
+    "r2": -0.005129692580638112,
+    "rmse": 0.061204744752404554,
+    "mae": 0.04685271852157961,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 16, num_layers=3, batch_first=True, dropout=0.32)\n  (dropout): Dropout(p=0.32, inplace=False)\n  (fc): Linear(in_features=16, out_features=1, bias=True)\n)"
+  },
+  "LSTM_R3_24_4": {
+    "r2": -0.0062124840171238205,
+    "rmse": 0.06123770275546645,
+    "mae": 0.046868245698069654,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 24, num_layers=4, batch_first=True, dropout=0.4)\n  (dropout): Dropout(p=0.4, inplace=False)\n  (fc): Linear(in_features=24, out_features=1, bias=True)\n)"
+  },
+  "LSTM_R3_16_4": {
+    "r2": -0.006427547328528238,
+    "rmse": 0.06124424674080683,
+    "mae": 0.046871699343105075,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 16, num_layers=4, batch_first=True, dropout=0.35)\n  (dropout): Dropout(p=0.35, inplace=False)\n  (fc): Linear(in_features=16, out_features=1, bias=True)\n)"
+  },
+  "LGB_50_3_30": {
+    "r2": -0.007612114014457605,
+    "rmse": 0.06434708070471348,
+    "mae": 0.04936576257940533
+  },
+  "LGB_45_2_40": {
+    "r2": -0.007636391184540736,
+    "rmse": 0.06434785588178381,
+    "mae": 0.04941819159419299
+  },
+  "RF_100_7": {
+    "r2": -0.009639875786989993,
+    "rmse": 0.06441179557287693,
+    "mae": 0.04930942295311703
+  },
+  "Lasso": {
+    "r2": -0.010283878551437198,
+    "rmse": 0.0644323349566468,
+    "mae": 0.04869946293112525
+  },
+  "ElasticNet": {
+    "r2": -0.010283878551437198,
+    "rmse": 0.0644323349566468,
+    "mae": 0.04869946293112525
+  },
+  "DecisionTree": {
+    "r2": -0.010283878551437198,
+    "rmse": 0.0644323349566468,
+    "mae": 0.04869946293112525
+  },
+  "RF_100_8": {
+    "r2": -0.012578318634718366,
+    "rmse": 0.0645054591018558,
+    "mae": 0.049582300806961396
+  },
+  "LSTM_40_2": {
+    "r2": -0.029715011546418202,
+    "rmse": 0.06194875202214888,
+    "mae": 0.047341420325226584,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 40, num_layers=2, batch_first=True, dropout=0.3)\n  (dropout): Dropout(p=0.3, inplace=False)\n  (fc): Linear(in_features=40, out_features=1, bias=True)\n)"
+  },
+  "RF_200_8": {
+    "r2": -0.03148754507170737,
+    "rmse": 0.06510497144128528,
+    "mae": 0.0499080262993459
+  },
+  "RF_300_8": {
+    "r2": -0.033635475651615954,
+    "rmse": 0.06517272225202038,
+    "mae": 0.05011342927754389
+  },
+  "LSTM_R2_12_2": {
+    "r2": -0.05072782472393422,
+    "rmse": 0.06257763651468395,
+    "mae": 0.04796847404173161,
+    "architecture": "SimpleLSTM(\n  (lstm): LSTM(10, 12, num_layers=2, batch_first=True, dropout=0.25)\n  (dropout): Dropout(p=0.25, inplace=False)\n  (fc): Linear(in_features=12, out_features=1, bias=True)\n)"
+  },
+  "XGB_100_6_30": {
+    "r2": -0.14896667908262207,
+    "rmse": 0.06871251986877018,
+    "mae": 0.053243398269214134
+  },
+  "XGB_120_4_40": {
+    "r2": -0.15673049759158642,
+    "rmse": 0.06894428175506204,
+    "mae": 0.05382613754540328
+  },
+  "XGB_100_4_50": {
+    "r2": -0.1591482194443241,
+    "rmse": 0.06901629554209177,
+    "mae": 0.05413947203630117
+  },
+  "GradientBoosting": {
+    "r2": -0.4885597232215655,
+    "rmse": 0.0782105410862067,
+    "mae": 0.06105858145476683
+  },
+  "SVR": {
+    "r2": -0.5637120924424321,
+    "rmse": 0.08016052555312135,
+    "mae": 0.06508235297561756
+  }
+}
