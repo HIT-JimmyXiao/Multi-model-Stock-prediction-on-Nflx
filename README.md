@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Netflix股票预测-最终版本-blue" alt="Netflix股票预测-最终版本" width="600"/>
+  <img src="https://img.shields.io/badge/Netflix股票预测-最终版本-blue" alt="Netflix股票预测-Final Version" width="600"/>
   <br/>
   <br/>
 </p>
